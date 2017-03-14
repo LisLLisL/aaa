@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>首页</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+	<!-- 新 Bootstrap 核心 CSS 文件 -->
+	<link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.0/css/bootstrap.min.css">
+
+	<!-- 可选的Bootstrap主题文件（一般不用引入） -->
+	<link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.0/css/bootstrap-theme.min.css">
+
+	<!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
+	<script src="http://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>
+
+	<!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+	<script src="http://cdn.bootcss.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="mainstyle/css/base.css">
+
+	<link rel="stylesheet" type="text/css" media="screen and (max-device-width: 768px)" href="mainstyle/css/phoneScreen.css" />
+
+	<style type="text/css">
+
+        @font-face {font-family: "iconfont";
+          src: url('mainstyle/font/iconfont.eot'); /* IE9*/
+          src: url('mainstyle/font/iconfont.eot#iefix') format('embedded-opentype'), /* IE6-IE8 */
+          url('mainstyle/font/iconfont.woff') format('woff'), /* chrome, firefox */
+          url('mainstyle/font/iconfont.ttf') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+          url('mainstyle/font/iconfont.svg#iconfont') format('svg'); /* iOS 4.1- */
+        }
+
+        .iconfont {
+          font-family:"iconfont" !important;
+          font-size:16px;
+          font-style:normal;
+          -webkit-font-smoothing: antialiased;
+          -webkit-text-stroke-width: 0.2px;
+          -moz-osx-font-smoothing: grayscale;
+        }
+
+    </style>
+</head>
+<body>
+<header>
+	<div class="my-header">
+		<div class="header-main">
+			<div class="header-logo">
+				<a class="logo" href=""></a>
+			</div>
+			<div class="header-navigation">
+				<ul>
+					<li class="header-navigation-item-active">小程序商店</li>
+					<li>文章</li>
+				</ul>
+			</div>
+			<div class="header-user">
+				<div class="header-login">
+					<ul>
+						<li>
+							<a href="javascript:;" class="header-button-register">注册</a>
+						</li>
+						<li>
+							<a href="javascript:;" class="header-button-login">登录</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div style="float:right;display:inline-block; margin-right:20px;" id="search">确定</div>
+			<div class="header-search">
+				<i class="glyphicon glyphicon-search" style="top:3px;"></i>
+				<input id="header-search-input" class="header-search-input" type="input" name="" placeholder="搜索">
+
+			</div>
+		</div>
+		<div class="header-category">
+			<p></p>
+			<ul> 
+				<li class="header-category-item-active">全部</li>
+				<li>金融</li>
+				<li>商业服务</li>
+				<li>公益</li>
+				<li>教育</li>
+				<li>富媒体</li>
+				<li>工具</li>
+				<li>交通</li>
+				<li>房地产</li>
+				<li>生活服务</li>
+				<li>IT科技</li>
+				<li>旅游</li>
+				<li>电视</li>
+				<li>医疗</li>
+				<li>政务民生</li>
+				<li>商家自营</li>
+				<li>餐饮</li>
+				<li>快递邮政</li>
+				<li>体育</li>
+				<li>社交</li>
+			</ul>
+		</div>
+	</div>
+</header>
+<div style="clear:both"></div>
+<div class="app-list">
+	<div class="app-slide">
+		<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+			<!-- Indicators -->
+			<ol class="carousel-indicators">
+			<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+			<li data-target="#carousel-example-generic" data-slide-to="1"></li>
+			<li data-target="#carousel-example-generic" data-slide-to="2"></li>
+			</ol>
+
+			<!-- Wrapper for slides -->
+			<div class="carousel-inner" role="listbox">
+				<div class="item active">
+				  <img src="mainstyle/images/first.png">
+				  <div class="carousel-caption">
+				    
+				  </div>
+				</div>
+				<div class="item">
+				  <img src="mainstyle/images/first.png">
+				  <div class="carousel-caption">
+				    
+				  </div>
+				</div>
+				<div class="item">
+				  <img src="mainstyle/images/first.png">
+				  <div class="carousel-caption">
+				    
+				  </div>
+				</div>
+			
+			</div>
+
+			<!-- Controls -->
+			<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+			<span class="glyphicon glyphicon-chevron-left"></span>
+			<span class="sr-only">Previous</span>
+			</a>
+			<a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+			<span class="glyphicon glyphicon-chevron-right"></span>
+			<span class="sr-only">Next</span>
+			</a>
+		</div>
+
+	</div>
+	<div class="app-list-content">
+		<div class="app-list-content-main">
+			<ul>
+				<li class="app-item">
+					<div class="app-link">
+						<section class="app-header">
+							<a><img class="app-header-app-icon" src="mainstyle/images/first.png"></a>
+							<div class="app-header-corp">
+								<a class="app-header-corp-app-name js-app-link" target="_blank">小程序名称</a> 
+								<span class="app-header-corp-auth-name">作者名字</span>
+							</div>
+							<span class="app-header-app-try">尝鲜</span>
+						</section>
+						<section class="app-header-tag">
+							<span class="app-tag-item">生活服务</span>
+							<span class="app-tag-item">社交</span>
+							<span class="app-tag-item app-tag-item-ellipsis">...</span>
+						</section>
+						<section class="app-footer">
+							<div class="app-footer-count"><i class="iconfont app-footer-like">&#xe611;</i><span>1</span></div>
+						</section>
+					</div>
+				</li>
+				<li class="app-item">
+					<div class="app-link">
+						<section class="app-header">
+							<a><img class="app-header-app-icon" src="mainstyle/images/first.png"></a>
+							<div class="app-header-corp">
+								<a class="app-header-corp-app-name js-app-link" target="_blank">小程序名称</a> 
+								<span class="app-header-corp-auth-name">作者名字</span>
+							</div>
+							<span class="app-header-app-try">尝鲜</span>
+						</section>
+						<section class="app-header-tag">
+							<span class="app-tag-item">生活服务</span>
+							<span class="app-tag-item">社交</span>
+							<span class="app-tag-item app-tag-item-ellipsis">...</span>
+						</section>
+						<section class="app-footer">
+							<div class="app-footer-count"><i class="iconfont app-footer-like">&#xe611;</i><span>1</span></div>
+						</section>
+					</div>
+				</li>
+				<li class="app-item">
+					<div class="app-link">
+						<section class="app-header">
+							<a><img class="app-header-app-icon" src="mainstyle/images/first.png"></a>
+							<div class="app-header-corp">
+								<a class="app-header-corp-app-name js-app-link" target="_blank">小程序名称</a> 
+								<span class="app-header-corp-auth-name">作者名字</span>
+							</div>
+							<span class="app-header-app-try">尝鲜</span>
+						</section>
+						<section class="app-header-tag">
+							<span class="app-tag-item">生活服务</span>
+							<span class="app-tag-item">社交</span>
+							<span class="app-tag-item app-tag-item-ellipsis">...</span>
+						</section>
+						<section class="app-footer">
+							<div class="app-footer-count"><i class="iconfont app-footer-like">&#xe611;</i><span>1</span></div>
+						</section>
+					</div>
+				</li>
+				<li class="app-item">
+					<div class="app-link">
+						<section class="app-header">
+							<a><img class="app-header-app-icon" src="mainstyle/images/first.png"></a>
+							<div class="app-header-corp">
+								<a class="app-header-corp-app-name js-app-link" target="_blank">小程序名称</a> 
+								<span class="app-header-corp-auth-name">作者名字</span>
+							</div>
+							<span class="app-header-app-try">尝鲜</span>
+						</section>
+						<section class="app-header-tag">
+							<span class="app-tag-item">生活服务</span>
+							<span class="app-tag-item">社交</span>
+							<span class="app-tag-item app-tag-item-ellipsis">...</span>
+						</section>
+						<section class="app-footer">
+							<div class="app-footer-count"><i class="iconfont app-footer-like">&#xe611;</i><span>1</span></div>
+						</section>
+					</div>
+				</li>
+				<li class="app-item">
+					<div class="app-link">
+						<section class="app-header">
+							<a><img class="app-header-app-icon" src="mainstyle/images/first.png"></a>
+							<div class="app-header-corp">
+								<a class="app-header-corp-app-name js-app-link" target="_blank">小程序名称</a> 
+								<span class="app-header-corp-auth-name">作者名字</span>
+							</div>
+							<span class="app-header-app-try">尝鲜</span>
+						</section>
+						<section class="app-header-tag">
+							<span class="app-tag-item">生活服务</span>
+							<span class="app-tag-item">社交</span>
+							<span class="app-tag-item app-tag-item-ellipsis">...</span>
+						</section>
+						<section class="app-footer">
+							<div class="app-footer-count"><i class="iconfont app-footer-like">&#xe611;</i><span>1</span></div>
+						</section>
+					</div>
+				</li>
+				<li class="app-item">
+					<div class="app-link">
+						<section class="app-header">
+							<a><img class="app-header-app-icon" src="mainstyle/images/first.png"></a>
+							<div class="app-header-corp">
+								<a class="app-header-corp-app-name js-app-link" target="_blank">小程序名称</a> 
+								<span class="app-header-corp-auth-name">作者名字</span>
+							</div>
+							<span class="app-header-app-try">尝鲜</span>
+						</section>
+						<section class="app-header-tag">
+							<span class="app-tag-item">生活服务</span>
+							<span class="app-tag-item">社交</span>
+							<span class="app-tag-item app-tag-item-ellipsis">...</span>
+						</section>
+						<section class="app-footer">
+							<div class="app-footer-count"><i class="iconfont app-footer-like">&#xe611;</i><span>1</span></div>
+						</section>
+					</div>
+				</li>
+			</ul>
+			<a class="app-get-more">加载更多</a>
+			<div class="no-more-app hidden">没有更多了</div>
+		</div>
+		<div class="app-list-content-right">
+			<section class="app-total-count">
+				<div class="app-total-count-left">
+					<p class="app-total-count-left-month">JAN</p>
+					<p class="app-total-count-left-day">13</p>
+				</div>
+				<div class="app-total-count-right">
+					<p class="app-total-count-right-total-count">总计：430 个</p>
+					<p class="app-total-count-right-add-count">今日新增：17 个</p>
+				</div>
+			</section>
+			<section class="app-ranking-list">
+				<h4 class="app-ranking-list-title">口碑榜</h4>
+				<ul>
+					<li class="app-ranking-list-item">
+						<div class="app-ranking-list-link" target="_blank">
+							<a target="_blank">
+								<img class="app-ranking-list-image" src="mainstyle/images/first.png">
+							</a>
+							<div class="app-ranking-list-content">
+								<h5 class="app-ranking-list-name">
+									<a target="_blank">二手车e</a>
+								</h5>
+							</div>
+						</div>
+					</li>
+					<li class="app-ranking-list-item">
+						<div class="app-ranking-list-link" target="_blank">
+							<a target="_blank">
+								<img class="app-ranking-list-image" src="mainstyle/images/first.png">
+							</a>
+							<div class="app-ranking-list-content">
+								<h5 class="app-ranking-list-name">
+									<a target="_blank">二手车e</a>
+								</h5>
+							</div>
+						</div>
+					</li>
+					<li class="app-ranking-list-item">
+						<div class="app-ranking-list-link" target="_blank">
+							<a target="_blank">
+								<img class="app-ranking-list-image" src="mainstyle/images/first.png">
+							</a>
+							<div class="app-ranking-list-content">
+								<h5 class="app-ranking-list-name">
+									<a target="_blank">二手车e</a>
+								</h5>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</section>
+			<section class="app-ranking-list">
+				<h4 class="app-ranking-list-title">新锐榜<a onclick="getMore()">see More</a></h4>
+				<ul class="add">
+					<!-- <li class="app-ranking-list-item">
+						<div class="app-ranking-list-link" target="_blank">
+							<a target="_blank">
+								<img class="app-ranking-list-image" src="">
+							</a>
+							<div class="app-ranking-list-content">
+								<h5 class="app-ranking-list-name">
+									<a target="_blank"></a>
+								</h5>
+							</div>
+						</div>
+					</li> -->
+					<!-- <li class="app-ranking-list-item">
+						<div class="app-ranking-list-link" target="_blank">
+							<a target="_blank">
+								<img class="app-ranking-list-image" src="">
+							</a>
+							<div class="app-ranking-list-content">
+								<h5 class="app-ranking-list-name">
+									<a target="_blank"></a>
+								</h5>
+							</div>
+						</div>
+					</li>
+					<li class="app-ranking-list-item">
+						<div class="app-ranking-list-link" target="_blank">
+							<a target="_blank">
+								<img class="app-ranking-list-image" src="mainstyle/images/first.png">
+							</a>
+							<div class="app-ranking-list-content">
+								<h5 class="app-ranking-list-name">
+									<a target="_blank">二手车e</a>
+								</h5>
+							</div>
+						</div>
+					</li> -->
+				</ul>
+			</section>
+		</div>
+	</div>
+</div>
+
+<div style="clear:both"></div>
+
+<div class="footer-container"></div>
+
+<footer>
+    <div class="foot-box">
+        <span style="margin-right:50px;">Copyright 2015-2016 fanshuge Network Technology Co., Ltd. All Rights Reserved 浙ICP备16014803号</span>寧波番薯格網絡科技有限公司 版權所有
+    </div>
+</footer>
+</body>
+<script type="text/javascript">
+	var pageNo=0;
+	$(document).ready(function(){
+		getMore();
+	})
+	function getMore(){
+		$.get("mainstyle/data/app-list.json",function(data){
+			var pageSize=2;
+			var arr= data.slice(pageNo*pageSize,(pageNo+1)*pageSize);
+			// $.each(arr,function(index,obj){
+			// 	alert(index+"+"+obj.url + "+" + obj.title);
+			// });
+			// console.log(arr);
+			// console.log(JSON.stringify(arr));
+			if(arr===null||arr.length===0){
+				return;
+			}
+			var str="";
+			for(var i=0;i<arr.length;i++){
+				// str+='<img class="app-ranking-list-image" src="arr[i].url">';
+				// str+="<img class='app-ranking-list-image' src="+arr[i].url+">";
+				str+="<li class=\"app-ranking-list-item\">";
+				str+="<div class=\"app-ranking-list-link\" target=\"_blank\">";
+				str+="<a target=\"_blank\">";
+				str+="<img class=\"app-ranking-list-image\" src="+arr[i].url+">";
+				str+="</a>";
+				str+="<div class=\"app-ranking-list-content\"><h5 class=\"app-ranking-list-name\"><a target=\"_blank\">"+arr[i].title+"</a></h5></div></div></li>";
+			}
+			pageNo+=1;
+			$(".add").append(str);
+		})
+	}
+</script>
+<script type="text/javascript">
+	$(document).ready(function(){
+		$("#search").click(function(){
+		var val=$("#header-search-input").val();
+			$.get("mainstyle/data/app-list.json",function(data){
+				var arrs=data.valueOf();
+				// console.log(JSON.stringify(arrs));
+				// alert(JSON.stringify(arrs));
+				var aaaaa= "";
+				for(var i=0;i<arrs.length;i++){
+					
+					if(arrs[i].title== val){
+						console.log(arrs[i].url);
+						aaaaa+=arrs[i].url+ "\n";
+					}
+				}
+				if(aaaaa!=""){
+					alert(aaaaa);
+				}
+				else{
+					alert("未找到");
+				}
+			})
+		})
+	})
+</script>
+</html>

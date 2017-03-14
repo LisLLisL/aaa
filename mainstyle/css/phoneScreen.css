@@ -1,0 +1,192 @@
+header{
+	
+}
+
+.header-main{
+	width: 100%;
+}
+
+.header-user, .header-search{
+	display: none;
+}
+
+.header-category{ 
+	display: none;
+}
+
+.app-list {
+    padding-top: 64px;
+}
+
+footer{
+	display: none;
+}
+
+.footer-container{
+	display: none;
+}
+
+.app-slide{
+	width: 100%;
+}
+
+.app-list-content{
+	width: 100%;
+}
+
+.app-list-content-main{
+	width: 100%;
+}
+
+.app-list-content-main ul{
+	width: 100%;
+}
+
+.app-get-more{
+	width: 100%;
+}
+
+.app-item {
+	width: 100%;
+}
+
+.app-total-count{
+	display: none;
+}
+
+.app-header-app-icon{ 
+	width: 100px; 
+	height: 100px; 
+}
+
+.app-header-corp-app-name{
+	font-size: 1.8em;
+	line-height: 1.5em;
+
+}
+
+.app-header-corp-auth-name{
+	font-size: 1.4em;
+}
+
+.app-header-corp{
+	width: auto;
+	margin-right: 0;
+}
+
+.app-list-content-right{
+	width: 100%;
+}
+
+.app-ranking-list{ 
+	width:100%;
+}
+
+.app-ranking-list-image{
+	width: 100px;
+	height: 100px;
+}
+
+.app-ranking-list-content{
+	margin-left: 120px;
+}
+
+.app-ranking-list-name{
+	font-size: 1.5em;
+}
+
+
+.article-index{
+	width: 100%;
+	padding-top: 69px;
+}
+
+.article-index .article-container{
+	width: 100%;
+	padding-bottom: 0;
+}
+
+.article-item .article-item-tag{
+	font-size: 1.2em;
+}
+
+.article-index .article-slider {
+	width: 100%;
+}
+
+.hot-article-list .hot-article-list-item{
+	width: 100%;
+}
+
+
+.app-detail{
+	width: 100%;
+	padding-top: 69px;
+	margin-bottom: 0;
+}
+
+.app-detail-container{
+	width: 100%;
+}
+
+ .app-detail-header {
+ 	width: 100%;
+ 	height: auto;
+ }
+
+ .app-detail-header-right {
+    float:  none;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.app-detail-header-right-info__add-like {
+	margin-bottom: 0;
+}
+
+.app-detail-header-right-info div  {
+	font-size: 1.2em;
+}
+
+.app-detail-conts{
+	width: 100%;
+}
+
+.app-detail-conts-info{
+	font-size: 1.2em;
+}
+
+.app-detail-conts-inner-header{
+	font-size: 1.2em
+}
+
+.app-detail-conts-inner-intro__des{
+	font-size: 1.5em;
+}
+
+.app-detail-conts-info .app-detail-conts-sidebar-info__inner{
+	font-size: 1.5em;
+	margin-top: 5px;
+}
+
+.detail-qrcode{
+	position: initial;
+	width: 100%;
+	margin-top: 10px;
+}
+
+.app-detail-conts-inner-header__name {
+	font-size: 1.5em;
+}
+
+.app-detail-sidebar {
+	display: none;
+}
+
+.app-detail-conts-rate__overall-rating{
+	font-size: 6rem;
+}
+
+.app-detail-conts-inner-comment__rate{
+	padding:0; 
+}

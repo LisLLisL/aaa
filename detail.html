@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>详情页面</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+	<!-- 新 Bootstrap 核心 CSS 文件 -->
+	<link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.0/css/bootstrap.min.css">
+
+	<!-- 可选的Bootstrap主题文件（一般不用引入） -->
+	<link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.0/css/bootstrap-theme.min.css">
+
+	<!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
+	<script src="http://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>
+
+	<!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+	<script src="http://cdn.bootcss.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="mainstyle/css/base.css">
+
+	<link rel="stylesheet" href="mainstyle/css/lightbox.min.css">
+
+	<link rel="stylesheet" type="text/css" media="screen and (max-device-width: 768px)" href="mainstyle/css/phoneScreen.css" />
+
+	<style type="text/css">
+
+        @font-face {font-family: "iconfont";
+          src: url('mainstyle/font/iconfont.eot'); /* IE9*/
+          src: url('mainstyle/font/iconfont.eot#iefix') format('embedded-opentype'), /* IE6-IE8 */
+          url('mainstyle/font/iconfont.woff') format('woff'), /* chrome, firefox */
+          url('mainstyle/font/iconfont.ttf') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+          url('mainstyle/font/iconfont.svg#iconfont') format('svg'); /* iOS 4.1- */
+        }
+
+        .iconfont {
+          font-family:"iconfont" !important;
+          font-size:16px;
+          font-style:normal;
+          -webkit-font-smoothing: antialiased;
+          -webkit-text-stroke-width: 0.2px;
+          -moz-osx-font-smoothing: grayscale;
+        }
+
+    </style>
+</head>
+<body>
+<header>
+	<div class="my-header">
+		<div class="header-main">
+			<div class="header-logo">
+				<a class="logo" href=""></a>
+			</div>
+			<div class="header-navigation">
+				<ul>
+					<li class="header-navigation-item-active">小程序商店</li>
+					<li>文章</li>
+				</ul>
+			</div>
+			<div class="header-user">
+				<div class="header-login">
+					<ul>
+						<li>
+							<a href="javascript:;" class="header-button-register">注册</a>
+						</li>
+						<li>
+							<a href="javascript:;" class="header-button-login">登录</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="header-search">
+				<i class="glyphicon glyphicon-search" style="top:3px;"></i>
+				<input class="header-search-input" type="input" name="" placeholder="搜索">
+			</div>
+		</div>
+	</div>
+</header>
+<div class="app-detail">
+	<div class="app-detail-container">
+		<section class="app-detail-header">
+			<div class="app-detail-header-left">
+				<img src="mainstyle/images/first.png"  class="app-detail-header-left__name">
+				<div class="app-detail-header-left-des">
+					<span class="app-detail-header-left-des__name">解忧室</span><br>
+					<span class="app-detail-header-left-des__corp">作者：ifanr</span><br> 
+					<span class="app-detail-header-left-des__tag">IT 科技</span>
+					<span class="app-detail-header-left-des__tag">工具</span> 
+				</div>
+			</div>
+			<div class="app-detail-header-right">
+				<div class="app-detail-header-right-info">
+					<div class="header-right-info-like">
+						<span class="app-detail-header-right-info__like-count">164</span><br>
+						<span>人喜欢</span>
+					</div>
+					<button class="app-detail-header-right-info__add-like"><i class="iconfont">&#xe611;</i>添加到喜欢</button>
+				</div>
+			</div>
+		</section>
+		<section class="app-detail-conts">
+			<section class="app-detail-conts-inner">
+				<div class="app-detail-conts-info">
+					<span class="emphasize-bar"></span> 
+					<span class="app-detail-conts-inner-intro__des">解忧室 信息</span>
+					<div class="app-detail-conts-sidebar-info__inner">
+						<span class="detail-publish-meta item-break">发布时间</span> 
+						<span class="detail-publish-meta item-break meta-info">01-15 08:16</span><br>
+						<span class="detail-publish-meta item-break">查看要求</span> 
+						<span class="detail-publish-meta item-break meta-info">微信最新版本客户端，6.5.3 版本以上。</span><br>
+						<span class="detail-publish-meta">作者</span> <span class="detail-publish-meta meta-info corp-name">ifanr</span>
+					</div>
+
+					<div class="detail-qrcode">
+						<img alt="小程序二维码" src="http://media.ifanrusercontent.com/media/user_files/trochili/ac/54/ac545fc628d80e994c1daa150c068cbb58b7c6c8-75f664fadbaa0069c1d20b8e96095387a976fa76.jpg">
+						<span class="app-detail-conts-sidebar-info__wx-tip">微信扫码体验</span>
+					</div>
+
+				</div>
+				<div class="app-detail-conts-inner-header">
+					<span class="emphasize-bar app-detail-conts-inner-header__emphasize-bar"></span>
+					<span class="app-detail-conts-inner-header__name">解忧室 截图</span>
+					<div class="app-detail-conts-inner-header__screenshots">
+					 	<div class="screenshorts-container js-screenshorts-container">
+					 		<a  class="example-image-link" href="http://media.ifanrusercontent.com/media/user_files/trochili/67/b7/67b7a33bd9caced906e34974be574d6069dff65d-b00e969d663955426d826de9107defef8c766d53.png" data-lightbox="example-set">
+					 			<img class="example-image" src="http://media.ifanrusercontent.com/media/user_files/trochili/67/b7/67b7a33bd9caced906e34974be574d6069dff65d-b00e969d663955426d826de9107defef8c766d53.png">
+					 		</a>
+					 		<a  class="example-image-link" href="http://media.ifanrusercontent.com/media/user_files/trochili/e4/be/e4be87aa93adcc6a07cba373dbeb673a3f1a2794-1c1ce99a66e6f12ed08b7deeddb9409eefd237d7.png" data-lightbox="example-set">
+					 			<img class="example-image" src="http://media.ifanrusercontent.com/media/user_files/trochili/e4/be/e4be87aa93adcc6a07cba373dbeb673a3f1a2794-1c1ce99a66e6f12ed08b7deeddb9409eefd237d7.png">
+					 		</a>
+					 		<a  class="example-image-link" href="http://media.ifanrusercontent.com/media/user_files/trochili/da/ef/daef34de9bddd27002234a209dfa7a32da9ae913-7ba97711327b0b5acaf6e8b5ca503df13512cbd1.png" data-lightbox="example-set">
+					 			<img class="example-image" src="http://media.ifanrusercontent.com/media/user_files/trochili/da/ef/daef34de9bddd27002234a209dfa7a32da9ae913-7ba97711327b0b5acaf6e8b5ca503df13512cbd1.png">
+					 		</a>
+					 		<a  class="example-image-link" href="http://media.ifanrusercontent.com/media/user_files/trochili/e9/04/e9046d3dbd7a22d1d3e9b8c73b9e4b78941a19ce-4c7858fec4bf7d275fbaa53a5f2880ad817508ce.png" data-lightbox="example-set">
+					 			<img class="example-image" src="http://media.ifanrusercontent.com/media/user_files/trochili/e9/04/e9046d3dbd7a22d1d3e9b8c73b9e4b78941a19ce-4c7858fec4bf7d275fbaa53a5f2880ad817508ce.png">
+					 		</a>
+
+					 	</div>
+					</div>
+				</div>
+				<div class="app-detail-conts-inner-intro">
+					<span class="emphasize-bar"></span>
+					<span class="app-detail-conts-inner-intro__des">解忧室 介绍</span>
+					<div class="description-content">用手机遇到奇怪的问题不知道怎么办？我来帮你解答。</div>
+				</div>
+
+				<div class="app-detail-conts-inner-comment">
+					<span class="emphasize-bar"></span> 
+					<span class="app-detail-conts-inner-intro__des">解忧室 评论</span>
+					<div class="app-detail-conts-inner-comment__rate">
+						<div class="app-detail-conts-rate--left">
+							<div class="app-detail-conts-rate__overall-rating">3.7</div>
+						</div>
+						<div class="app-detail-conts-rate--middle">
+							<div class="app-detail-conts-rate__comment-count">共收到 46 份评论</div>
+						</div>
+						<div class="app-detail-conts-rate--right">
+							
+						</div>
+					</div>
+				</div>
+			</section>
+		</section>
+	</div>
+	<div class="app-detail-sidebar">
+		<section class="app-ranking-list">
+			<h4 class="app-ranking-list-title">口碑榜</h4>
+			<ul>
+				<li class="app-ranking-list-item">
+					<div class="app-ranking-list-link" target="_blank">
+						<a target="_blank">
+							<img class="app-ranking-list-image" src="mainstyle/images/first.png">
+						</a>
+						<div class="app-ranking-list-content">
+							<h5 class="app-ranking-list-name">
+								<a target="_blank">二手车e</a>
+							</h5>
+						</div>
+					</div>
+				</li>
+				<li class="app-ranking-list-item">
+					<div class="app-ranking-list-link" target="_blank">
+						<a target="_blank">
+							<img class="app-ranking-list-image" src="mainstyle/images/first.png">
+						</a>
+						<div class="app-ranking-list-content">
+							<h5 class="app-ranking-list-name">
+								<a target="_blank">二手车e</a>
+							</h5>
+						</div>
+					</div>
+				</li>
+				<li class="app-ranking-list-item">
+					<div class="app-ranking-list-link" target="_blank">
+						<a target="_blank">
+							<img class="app-ranking-list-image" src="mainstyle/images/first.png">
+						</a>
+						<div class="app-ranking-list-content">
+							<h5 class="app-ranking-list-name">
+								<a target="_blank">二手车e</a>
+							</h5>
+						</div>
+					</div>
+				</li>
+			</ul>
+		</section>
+		<section class="app-ranking-list">
+			<h4 class="app-ranking-list-title">新锐榜</h4>
+			<ul>
+				<li class="app-ranking-list-item">
+					<div class="app-ranking-list-link" target="_blank">
+						<a target="_blank">
+							<img class="app-ranking-list-image" src="mainstyle/images/first.png">
+						</a>
+						<div class="app-ranking-list-content">
+							<h5 class="app-ranking-list-name">
+								<a target="_blank">二手车e</a>
+							</h5>
+						</div>
+					</div>
+				</li>
+				<li class="app-ranking-list-item">
+					<div class="app-ranking-list-link" target="_blank">
+						<a target="_blank">
+							<img class="app-ranking-list-image" src="mainstyle/images/first.png">
+						</a>
+						<div class="app-ranking-list-content">
+							<h5 class="app-ranking-list-name">
+								<a target="_blank">二手车e</a>
+							</h5>
+						</div>
+					</div>
+				</li>
+				<li class="app-ranking-list-item">
+					<div class="app-ranking-list-link" target="_blank">
+						<a target="_blank">
+							<img class="app-ranking-list-image" src="mainstyle/images/first.png">
+						</a>
+						<div class="app-ranking-list-content">
+							<h5 class="app-ranking-list-name">
+								<a target="_blank">二手车e</a>
+							</h5>
+						</div>
+					</div>
+				</li>
+			</ul>
+		</section>
+	</div>
+</div>
+
+<div style="clear:both"></div>
+<div class="footer-container"></div>
+
+<footer>
+    <div class="foot-box">
+        <span style="margin-right:50px;">Copyright 2015-2016 fanshuge Network Technology Co., Ltd. All Rights Reserved 浙ICP备16014803号</span>寧波番薯格網絡科技有限公司 版權所有
+    </div>
+</footer>
+<script src="mainstyle/js/lightbox-plus-jquery.min.js"></script>
+</body>
+</html>
