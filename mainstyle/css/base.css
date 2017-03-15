@@ -526,6 +526,8 @@ table {
     color: #47525D;
 }
 
+.load-more{ float: right; font-size: 12px; margin-right: 10px; cursor: pointer; }
+
 .app-ranking-list-item {
     border-bottom: 1px solid #F1F1F1;
 }

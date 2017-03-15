@@ -66,10 +66,10 @@
 					</ul>
 				</div>
 			</div>
-			<div style="float:right;display:inline-block; margin-right:20px;" id="search">确定</div>
+			<!-- <div style="float:right;display:inline-block; margin-right:20px;" id="search">确定</div> -->
 			<div class="header-search">
 				<i class="glyphicon glyphicon-search" style="top:3px;"></i>
-				<input id="header-search-input" class="header-search-input" type="input" name="" placeholder="搜索">
+				<input id="header-search-input" class="header-search-input" type="input" placeholder="搜索">
 
 			</div>
 		</div>
@@ -154,7 +154,7 @@
 						<section class="app-header">
 							<a><img class="app-header-app-icon" src="mainstyle/images/first.png"></a>
 							<div class="app-header-corp">
-								<a class="app-header-corp-app-name js-app-link" target="_blank">小程序名称</a> 
+								<a class="app-header-corp-app-name js-app-link"  href="/detail.html">解忧室</a> 
 								<span class="app-header-corp-auth-name">作者名字</span>
 							</div>
 							<span class="app-header-app-try">尝鲜</span>
@@ -326,7 +326,7 @@
 				</ul>
 			</section>
 			<section class="app-ranking-list">
-				<h4 class="app-ranking-list-title">新锐榜<a onclick="getMore()">see More</a></h4>
+				<h4 class="app-ranking-list-title">新锐榜<a class="load-more" onclick="getMore()">更多</a></h4>
 				<ul class="add">
 					<!-- <li class="app-ranking-list-item">
 						<div class="app-ranking-list-link" target="_blank">
@@ -414,9 +414,12 @@
 	}
 </script>
 <script type="text/javascript">
-	$(document).ready(function(){
-		$("#search").click(function(){
+	$("#header-search-input").keydown(function(){
+		
+		var keyCode = event.keyCode?event.keyCode:event.which?event.which:event.charCode;
 		var val=$("#header-search-input").val();
+		if (keyCode ==13){
+		// 此处处理回车动作
 			$.get("mainstyle/data/app-list.json",function(data){
 				var arrs=data.valueOf();
 				// console.log(JSON.stringify(arrs));
@@ -436,7 +439,29 @@
 					alert("未找到");
 				}
 			})
-		})
+		}
 	})
+		// $("#search").click(function(){
+		// var val=$("#header-search-input").val();
+		// 	$.get("mainstyle/data/app-list.json",function(data){
+		// 		var arrs=data.valueOf();
+		// 		// console.log(JSON.stringify(arrs));
+		// 		// alert(JSON.stringify(arrs));
+		// 		var aaaaa= "";
+		// 		for(var i=0;i<arrs.length;i++){
+					
+		// 			if(arrs[i].title== val){
+		// 				console.log(arrs[i].url);
+		// 				aaaaa+=arrs[i].url+ "\n";
+		// 			}
+		// 		}
+		// 		if(aaaaa!=""){
+		// 			alert(aaaaa);
+		// 		}
+		// 		else{
+		// 			alert("未找到");
+		// 		}
+		// 	})
+		// })
 </script>
 </html>
